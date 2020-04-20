@@ -1,0 +1,54 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  font: 10px sans-serif;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  text-align: center;
+  font-family: algerian;
+}
+
+.tile-text{
+  cursor: default;
+}
+
+#title{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#description{
+  padding-bottom: 1.5rem;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 10px;                
+  font: 12px monospace;        
+  background:violet;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none; 
+}
+
+#legend{
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
